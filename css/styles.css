@@ -330,7 +330,7 @@ margin-top: 101px;
     padding: 15px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.29) !important;
     border-bottom: 4px solid #27AFD3;
-    border-radius: 29px / 147px;
+    /* border-radius: 29px / 147px; */
 }
 /*.carousel-inner*/
 #myCarousel {
@@ -387,7 +387,7 @@ margin-top: 101px;
 	height: 50px;/*color:#A43E89;*/
 }
 .navbar-brand b {
-	color: #3ECF19;
+	color: #cf1919;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 900;
 }
@@ -1450,4 +1450,9 @@ nav#filter li {
 
 #contactUs .contact-info {
 	padding-top: 3rem;
+}
+
+.b1 li {
+	font-size: 20px;
+  	list-style-type: none;
 }
