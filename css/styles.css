@@ -382,24 +382,21 @@ margin-top: 101px;
 /*----Nav ----*/
 .header .navbar-brand {
 	float: left;
-	padding: 22px 15px;
 	line-height: 18px;
-	height: 50px;/*color:#A43E89;*/
+	height: 50px;
+	object-fit: contain;
 }
-.navbar-brand b {
-	color: #cf1919;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 900;
+
+.logo > img {
+	height: 50px;
 }
-.navbar-brand b i {
-	color: #117DAD;
-	font-style: normal;
+
+@media (min-width: 768px){
+	.logo > img {
+		height: 80px;
+	}
 }
-.logo {
-	font-size: 2.2em;
-	text-shadow: none;
-	margin: 8px 0 0 0;
-}
+
 .logo:hover {
 	color: #5A5A5A;
 }
@@ -505,7 +502,7 @@ background: rgba(0, 120, 186, 0.65);
 }
 .banner-content {
 	position: absolute;
-	z-index: 3;
+	z-index: 1;
 	top: 0px;
 	left: 0px;
 	right: 0px;
@@ -1084,6 +1081,7 @@ padding:35px 0;
 @media (min-width: 768px) {
 .header .navbar-brand {
 	padding-left: 0;
+	padding-top: 0;
 }
 .navbar-nav {
 	float: right;
@@ -1166,8 +1164,8 @@ padding:35px 0;
 .header .navbar-brand {
   float: left;
   padding: 10px;
-  }
-  #home { 
+}
+#home { 
   margin-top: 86px;
 }
 .header { 
@@ -1284,7 +1282,7 @@ padding: 6pxpx !important;
 }
 .header .navbar-brand {
 float: left;
-padding: 12px 0px;
+padding: 6px 0px;
 line-height: 18px; 
 }
 .navbar-toggle {
